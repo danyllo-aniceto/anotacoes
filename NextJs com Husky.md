@@ -6,10 +6,10 @@ Este repositório contém um projeto desenvolvido com [Next.js](https://nextjs.o
 
 - [O que é Next.js?](#o-que-é-nextjs)
 - [Principais Recursos do Next.js](#principais-recursos-do-nextjs)
+- [Renderização Client-Side e Server-Side](#renderização-client-side-e-server-side)
 - [Configuração do Husky](#configuração-do-husky)
 - [Scripts Disponíveis](#scripts-disponíveis)
 - [Como Contribuir](#como-contribuir)
-- [Licença](#licença)
 
 ## O que é Next.js?
 
