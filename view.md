@@ -2,11 +2,12 @@
 A pasta view (ou uma pasta similarmente nomeada, como src ou app) em um projeto Next.js serve como o local principal para organizar todos os arquivos relacionados à apresentação, lógica de interface e gerenciamento de estado da sua aplicação. Abaixo está uma explicação das subpastas comuns dentro dessa estrutura:
 
 ## 1. assets 📂
-- A pasta assets armazena arquivos estáticos, como imagens, fontes, ícones, e outros recursos que são utilizados em seu projeto.
+A pasta assets armazena arquivos estáticos, como imagens, fontes, ícones, e outros recursos que são utilizados em seu projeto.
 
-Imagens 🖼️: Fotos, ilustrações, logos.
-Fontes 🔤: Arquivos de fontes personalizadas que você deseja incluir no seu projeto.
-Ícones 🎨: Ícones SVG ou PNG que são usados no layout.
+-Imagens 🖼️: Fotos, ilustrações, logos.
+-Fontes 🔤: Arquivos de fontes personalizadas que você deseja incluir no seu projeto.
+-Ícones 🎨: Ícones SVG ou PNG que são usados no layout.
+
 2. components 🧩
 A pasta components contém todos os componentes React reutilizáveis que serão usados em várias partes da aplicação.
 
