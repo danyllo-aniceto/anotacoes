@@ -1,6 +1,3 @@
-# Conteúdo a ser salvo em arquivo Markdown sobre a pasta `models` no Next.js
-
-markdown_content_models_folder = """
 # Propósitos e Uso da Pasta `models` no Next.js
 
 ## 1. Introdução
