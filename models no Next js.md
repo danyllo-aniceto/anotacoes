@@ -25,7 +25,7 @@ Se você estiver utilizando um ORM, como Sequelize ou Prisma, a pasta `models` p
 
 ### 3.1 MongoDB com Mongoose
 Arquivo `models/User.js`:
-```javascript
+```typescript
 import mongoose from 'mongoose';
 
 const UserSchema = new mongoose.Schema({
@@ -44,13 +44,14 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.models.User || mongoose.model('User', UserSchema);
 
+export default mongoose.models.User || mongoose.model('User', UserSchema);
+```
 
 ### 3.2 Sequelize com PostgreSQL
 Arquivo `models/User.js:`
 
-```javascript
+```typescript
 import { DataTypes } from 'sequelize';
 import sequelize from '../lib/sequelize';
 
@@ -71,6 +72,7 @@ const User = sequelize.define('User', {
 });
 
 export default User;
+```
 
 ## 4. Conclusão
 A pasta models serve como um local centralizado para definir e gerenciar a lógica relacionada aos dados da aplicação. Embora não seja obrigatória, ela é uma prática recomendada em muitos projetos, especialmente aqueles que envolvem manipulação e persistência de dados
